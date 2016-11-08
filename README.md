@@ -3,12 +3,14 @@
 
 ###Real file story
 In [CXA](http://www.cxagroup.com) (as a broker company) we process huge amount of documents every single day. Recently we decided to shift more in paperless document processing. Less paperwork - faster claim turnaround - happier customers. And we started to encourage clients to upload right documents by explaining them what the right document is and how to scan documents in a way they could be used without requesting original hard copies. I thought _“what else could I do to improve this entire process and eliminate user errors?”_. Very often clients send us document photos taken on their smartphone. 
-￼
+
+<img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/claims-incorrect.png" width="30%"/>￼
+
  And this is how idea of __image perspective correction__ was born. 
 
 Image perspective correction is a warp transformation which basically changes “point of view” to the object:
 
-<img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/claims-incorrect.png" width="30%"/>
+<img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/perspective.png" width="50%"/>
 ￼
 
 There is a good post on [FlexMonkey website](https://realm.io/news/tryswift-gladman-simon-advanced-core-image/) about “Perspective Transform & Correction with Core Image”. 
