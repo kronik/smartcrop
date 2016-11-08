@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3F98ED1DD0157F007526D8 /* UIImage+OpenCVBW.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F98EC1DD0157F007526D8 /* UIImage+OpenCVBW.mm */; };
+		0ABE94101DCC88CC00BF0C24 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE940C1DCC88CC00BF0C24 /* UIImage+OpenCV.mm */; };
+		0ABE94111DCC88CC00BF0C24 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE940E1DCC88CC00BF0C24 /* UIImage+Rotate.m */; };
+		0ABE94161DCC898B00BF0C24 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE94131DCC898B00BF0C24 /* UIImage+fixOrientation.m */; };
+		0ABE94171DCC898B00BF0C24 /* UIImageView+ContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE94151DCC898B00BF0C24 /* UIImageView+ContentFrame.m */; };
+		0ABE941A1DCC8BFE00BF0C24 /* UIImageView+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE94191DCC8BFE00BF0C24 /* UIImageView+OpenCV.mm */; };
+		0ABE941D1DCC93F600BF0C24 /* CropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE941C1DCC93F600BF0C24 /* CropView.m */; };
+		0ACDD33F1DCC5F3D00618927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDD33E1DCC5F3D00618927 /* AppDelegate.swift */; };
+		0ACDD3411DCC5F3D00618927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDD3401DCC5F3D00618927 /* ViewController.swift */; };
+		0ACDD3441DCC5F3D00618927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACDD3421DCC5F3D00618927 /* Main.storyboard */; };
+		0ACDD3461DCC5F3D00618927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACDD3451DCC5F3D00618927 /* Assets.xcassets */; };
+		0ACDD3491DCC5F3D00618927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACDD3471DCC5F3D00618927 /* LaunchScreen.storyboard */; };
+		ED2B127C7328B8837A01897E /* Pods_SmartCrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AD2AAD780E6E5F8E27C249 /* Pods_SmartCrop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A3F98EB1DD0157F007526D8 /* UIImage+OpenCVBW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCVBW.h"; sourceTree = "<group>"; };
+		0A3F98EC1DD0157F007526D8 /* UIImage+OpenCVBW.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCVBW.mm"; sourceTree = "<group>"; };
+		0ABE94071DCC884600BF0C24 /* SmartCrop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartCrop-Bridging-Header.h"; sourceTree = "<group>"; };
+		0ABE940B1DCC88CC00BF0C24 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		0ABE940C1DCC88CC00BF0C24 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		0ABE940D1DCC88CC00BF0C24 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		0ABE940E1DCC88CC00BF0C24 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		0ABE94121DCC898B00BF0C24 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		0ABE94131DCC898B00BF0C24 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		0ABE94141DCC898B00BF0C24 /* UIImageView+ContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ContentFrame.h"; sourceTree = "<group>"; };
+		0ABE94151DCC898B00BF0C24 /* UIImageView+ContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ContentFrame.m"; sourceTree = "<group>"; };
+		0ABE94181DCC8BFE00BF0C24 /* UIImageView+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+OpenCV.h"; sourceTree = "<group>"; };
+		0ABE94191DCC8BFE00BF0C24 /* UIImageView+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImageView+OpenCV.mm"; sourceTree = "<group>"; };
+		0ABE941B1DCC93F600BF0C24 /* CropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropView.h; sourceTree = "<group>"; };
+		0ABE941C1DCC93F600BF0C24 /* CropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropView.m; sourceTree = "<group>"; };
+		0ACDD33B1DCC5F3D00618927 /* SmartCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACDD33E1DCC5F3D00618927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ACDD3401DCC5F3D00618927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0ACDD3431DCC5F3D00618927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ACDD3451DCC5F3D00618927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ACDD3481DCC5F3D00618927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ACDD34A1DCC5F3D00618927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE4E410DDE7D139DFC020D9 /* Pods-SmartCrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCrop/Pods-SmartCrop.release.xcconfig"; sourceTree = "<group>"; };
+		70AD2AAD780E6E5F8E27C249 /* Pods_SmartCrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78955D5608D02605BFBBF65 /* Pods-SmartCrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCrop/Pods-SmartCrop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ACDD3381DCC5F3D00618927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2B127C7328B8837A01897E /* Pods_SmartCrop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABE94081DCC88CC00BF0C24 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE94181DCC8BFE00BF0C24 /* UIImageView+OpenCV.h */,
+				0ABE94191DCC8BFE00BF0C24 /* UIImageView+OpenCV.mm */,
+				0ABE940B1DCC88CC00BF0C24 /* UIImage+OpenCV.h */,
+				0ABE940C1DCC88CC00BF0C24 /* UIImage+OpenCV.mm */,
+				0A3F98EB1DD0157F007526D8 /* UIImage+OpenCVBW.h */,
+				0A3F98EC1DD0157F007526D8 /* UIImage+OpenCVBW.mm */,
+				0ABE940D1DCC88CC00BF0C24 /* UIImage+Rotate.h */,
+				0ABE940E1DCC88CC00BF0C24 /* UIImage+Rotate.m */,
+				0ABE94121DCC898B00BF0C24 /* UIImage+fixOrientation.h */,
+				0ABE94131DCC898B00BF0C24 /* UIImage+fixOrientation.m */,
+				0ABE94141DCC898B00BF0C24 /* UIImageView+ContentFrame.h */,
+				0ABE94151DCC898B00BF0C24 /* UIImageView+ContentFrame.m */,
+				0ABE941B1DCC93F600BF0C24 /* CropView.h */,
+				0ABE941C1DCC93F600BF0C24 /* CropView.m */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		0ACDD3321DCC5F3C00618927 = {
+			isa = PBXGroup;
+			children = (
+				0ACDD33D1DCC5F3D00618927 /* SmartCrop */,
+				0ACDD33C1DCC5F3D00618927 /* Products */,
+				3E61BA44E5D6F1BAE8711FAD /* Pods */,
+				FF9DAB2D74D7D1DFFA65C430 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACDD33C1DCC5F3D00618927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACDD33B1DCC5F3D00618927 /* SmartCrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ACDD33D1DCC5F3D00618927 /* SmartCrop */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE94081DCC88CC00BF0C24 /* OpenCV */,
+				0ACDD33E1DCC5F3D00618927 /* AppDelegate.swift */,
+				0ACDD3401DCC5F3D00618927 /* ViewController.swift */,
+				0ACDD3421DCC5F3D00618927 /* Main.storyboard */,
+				0ACDD3451DCC5F3D00618927 /* Assets.xcassets */,
+				0ACDD3471DCC5F3D00618927 /* LaunchScreen.storyboard */,
+				0ACDD34A1DCC5F3D00618927 /* Info.plist */,
+				0ABE94071DCC884600BF0C24 /* SmartCrop-Bridging-Header.h */,
+			);
+			path = SmartCrop;
+			sourceTree = "<group>";
+		};
+		3E61BA44E5D6F1BAE8711FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C78955D5608D02605BFBBF65 /* Pods-SmartCrop.debug.xcconfig */,
+				2AE4E410DDE7D139DFC020D9 /* Pods-SmartCrop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF9DAB2D74D7D1DFFA65C430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70AD2AAD780E6E5F8E27C249 /* Pods_SmartCrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACDD33A1DCC5F3D00618927 /* SmartCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACDD34D1DCC5F3D00618927 /* Build configuration list for PBXNativeTarget "SmartCrop" */;
+			buildPhases = (
+				73A831B6EC7D75FE0646D7E8 /* [CP] Check Pods Manifest.lock */,
+				0ACDD3371DCC5F3D00618927 /* Sources */,
+				0ACDD3381DCC5F3D00618927 /* Frameworks */,
+				0ACDD3391DCC5F3D00618927 /* Resources */,
+				8CCD97F748B85D9EF06289E3 /* [CP] Embed Pods Frameworks */,
+				3EDEBE4A9AEA6BE97BC8C6CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCrop;
+			productName = SmartCrop;
+			productReference = 0ACDD33B1DCC5F3D00618927 /* SmartCrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACDD3331DCC5F3C00618927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dmitry Klimkin";
+				TargetAttributes = {
+					0ACDD33A1DCC5F3D00618927 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7HCL9D4WBY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0ACDD3361DCC5F3C00618927 /* Build configuration list for PBXProject "SmartCrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ACDD3321DCC5F3C00618927;
+			productRefGroup = 0ACDD33C1DCC5F3D00618927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACDD33A1DCC5F3D00618927 /* SmartCrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACDD3391DCC5F3D00618927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACDD3491DCC5F3D00618927 /* LaunchScreen.storyboard in Resources */,
+				0ACDD3461DCC5F3D00618927 /* Assets.xcassets in Resources */,
+				0ACDD3441DCC5F3D00618927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EDEBE4A9AEA6BE97BC8C6CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartCrop/Pods-SmartCrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A831B6EC7D75FE0646D7E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CCD97F748B85D9EF06289E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartCrop/Pods-SmartCrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACDD3371DCC5F3D00618927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABE94161DCC898B00BF0C24 /* UIImage+fixOrientation.m in Sources */,
+				0A3F98ED1DD0157F007526D8 /* UIImage+OpenCVBW.mm in Sources */,
+				0ABE94101DCC88CC00BF0C24 /* UIImage+OpenCV.mm in Sources */,
+				0ACDD3411DCC5F3D00618927 /* ViewController.swift in Sources */,
+				0ABE94111DCC88CC00BF0C24 /* UIImage+Rotate.m in Sources */,
+				0ABE941D1DCC93F600BF0C24 /* CropView.m in Sources */,
+				0ACDD33F1DCC5F3D00618927 /* AppDelegate.swift in Sources */,
+				0ABE94171DCC898B00BF0C24 /* UIImageView+ContentFrame.m in Sources */,
+				0ABE941A1DCC8BFE00BF0C24 /* UIImageView+OpenCV.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ACDD3421DCC5F3D00618927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACDD3431DCC5F3D00618927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ACDD3471DCC5F3D00618927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACDD3481DCC5F3D00618927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDD34B1DCC5F3D00618927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ACDD34C1DCC5F3D00618927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACDD34E1DCC5F3D00618927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78955D5608D02605BFBBF65 /* Pods-SmartCrop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7HCL9D4WBY;
+				INFOPLIST_FILE = SmartCrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry-klimkin.SmartCrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0ACDD34F1DCC5F3D00618927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE4E410DDE7D139DFC020D9 /* Pods-SmartCrop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7HCL9D4WBY;
+				INFOPLIST_FILE = SmartCrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitry-klimkin.SmartCrop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACDD3361DCC5F3C00618927 /* Build configuration list for PBXProject "SmartCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACDD34B1DCC5F3D00618927 /* Debug */,
+				0ACDD34C1DCC5F3D00618927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACDD34D1DCC5F3D00618927 /* Build configuration list for PBXNativeTarget "SmartCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACDD34E1DCC5F3D00618927 /* Debug */,
+				0ACDD34F1DCC5F3D00618927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ACDD3331DCC5F3C00618927 /* Project object */;
+}
