@@ -131,7 +131,11 @@ Very often first implementation doesn’t show great results. Like in my case mo
 
 _Try again and again, be curious, be insistent!_
 
-What we’ve got? Now CXA application has extremely reliable way of taking well-prepared document photos which are:
+What we’ve got? 
+
+<img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/demo.gif" width="50%"/>￼
+
+Now CXA application has extremely reliable way of taking well-prepared document photos which are:
 
 1. easy to read
 2. ready for further data processing (like OCR)
