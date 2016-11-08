@@ -73,6 +73,7 @@ Here is how it works:
 
 <img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/CI-step1.png" width="22%"/> <img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/CI-step2.png" width="22%"/> <img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/CI-step3.png" width="22%"/> <img src="https://raw.githubusercontent.com/kronik/smartcrop/master/Images/CI-step4.png" width="22%"/>
 ￼
+
 Now I have grayscale final image fully ready for recognition! 😎🙌 
 
 Some more coding and I’m testing this code on different images right from camera. And __BOOM!__
